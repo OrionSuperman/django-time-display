@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title>	</title>
+	{% load staticfiles %}
+	<link rel="stylesheet" href="{% static 'givetime/style.css' %}">
+
+</head>
+<body>
+	<h1>Current time:</h1>
+	<div class='time'>
+		<p>{{month}} {{day}}, {{year}}</p>
+		<p>{{time}}</p>
+	</div>
+</body>
+</html>
